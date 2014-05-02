@@ -10,7 +10,7 @@
  *  May you share freely, never taking more than you give.
  */
 /* Some global items. */
-$lang->zentaophp = 'ZenTaoPHP框架';
+$lang->zentaophp = '运营后台';
 $lang->welcome   = 'ZenTaoPHP, 做最懂程序员的框架！';
 $lang->intro     = 'ZenTaoPHP框架是一款轻量级的MVC开发框架，代码简单，性能良好，结构清晰，开发友好！';
 $lang->more      = '了解更多&raquo;';
@@ -19,7 +19,8 @@ $lang->save      = '保存';
 /* The menu items. */
 $lang->menu = new stdclass();
 $lang->menu->index = '首页';
-$lang->menu->blog  = '演示';
+$lang->menu->booklist = '书单';
+// $lang->menu->blog  = '演示';
 //$lang->menu->doc   = '文档';
 
 /* Error message. */

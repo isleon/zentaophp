@@ -19,15 +19,15 @@
           }
           ?>
         </ul>
-        <div class='btn-group pull-right' id='nav-right'>
+        <!-- <div class='btn-group pull-right' id='nav-right'>
           <?php 
-          foreach($config->langs as $langCode => $langLabel)
-          {
-              $btnClass = $app->getClientLang() == $langCode ? 'btn-primary' : '';
-              echo "<button class='btn btn-small $btnClass lang-switcher mt-10px' data-lang='$langCode' onclick='switchLang(this)'>$langLabel</button>";
-          }
+          // foreach($config->langs as $langCode => $langLabel)
+          // {
+          //     $btnClass = $app->getClientLang() == $langCode ? 'btn-primary' : '';
+          //     echo "<button class='btn btn-small $btnClass lang-switcher mt-10px' data-lang='$langCode' onclick='switchLang(this)'>$langLabel</button>";
+          // }
           ?>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
